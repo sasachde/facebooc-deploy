@@ -18,7 +18,7 @@ spec:
         app: facebooc
     spec:
       containers:
-      - image: schoolofdevops/facebooc:latest
+      - image: sasachde/facebooc:latest
         name: facebooc
         ports:
         - containerPort: 16000
